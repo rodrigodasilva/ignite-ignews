@@ -1,14 +1,20 @@
+import Head from 'next/head'
 
-import styles from '../styles/home.module.scss'
+
 
 export default function Home() {
   return (
-    <div className={styles.title}>
-      <h1>Hello 
+    <>
+      <Head>
+        <title>Inicio | ig.news</title>
+      </Head> 
+
+      <h1>
+        Hello 
         <span>
           world
         </span>
-        </h1>  
-    </div>
+      </h1>  
+    </>
   )
 }
